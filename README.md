@@ -1,8 +1,8 @@
 # Machine Learning Engineer Nanodegree
 ## Capstone Project: Write an Algorithm for Identifying T-Shirt's Graphic Type
 
-* Capstone Proposal: proposal.pdf
-* Project Report: project_report.pdf
+* Capstone Proposal: **proposal.pdf**
+* Project Report: **project_report.pdf**
 * Programming language: Python 2.7+
 * **requirements** directory defines all the python modules required as the part of setup/startup
 * Libraries: keras, tensorflow, cv2, numpy, pandas, sklearn, glob, tqdm, PIL, matplotlib
