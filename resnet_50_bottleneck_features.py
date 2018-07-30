@@ -28,7 +28,7 @@ def save_bottlebeck_features():
         train_data_dir,
         target_size=(img_width, img_height),
         batch_size=batch_size,
-        class_mode=None,
+        class_mode='categorical',
         shuffle=False)
     bottleneck_features_train = model.predict_generator(
         generator, nb_train_samples // batch_size)
@@ -38,7 +38,7 @@ def save_bottlebeck_features():
         validation_data_dir,
         target_size=(img_width, img_height),
         batch_size=batch_size,
-        class_mode=None,
+        class_mode='categorical',
         shuffle=False)
     bottleneck_features_validation = model.predict_generator(
         generator, nb_validation_samples // batch_size)
@@ -48,7 +48,7 @@ def save_bottlebeck_features():
         test_data_dir,
         target_size=(img_width, img_height),
         batch_size=batch_size,
-        class_mode=None,
+        class_mode='categorical',
         shuffle=False)
     bottleneck_features_test = model.predict_generator(
         generator, nb_test_samples // batch_size)
